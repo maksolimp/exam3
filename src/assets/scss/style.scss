@@ -1,0 +1,156 @@
+.ba-header{
+	background-size: cover;
+}
+.ba-main{
+	text-align: center;
+	&__title{
+		padding: 330px 0 39px;
+		text-transform: uppercase;
+		@include breakpoint(medium down){
+			text-align: center;
+			padding: 50px 0 15px;
+		}
+	}
+	&__subtitle{
+		font-style: italic;
+		padding-bottom: 510px;
+		@include breakpoint(medium down){
+			text-align: center;
+			padding-bottom: 75px;
+		}
+	}
+}
+
+.ba-about-us{
+	color: #665F60;
+	margin-bottom: 120px;
+	padding: 124px 0 121px;
+
+}
+.ba-services{
+	color: #665F60;
+	&__block{
+		text-align: center;
+	}
+	&__title{
+		margin-top: 85px;
+	}
+}
+
+.ba-works{
+	padding: 49px 0 60px;
+	text-align: center;
+}
+
+.ba-team{
+	text-align: center;
+	padding: 54px 80px;
+	&__title{
+		font-family: 'ProximaNova', sans-serif;
+		color:  #665f60;
+		font-size: 36px;
+		font-weight: 600;
+		margin-bottom: 68px;
+	}
+}
+.ba-person{
+	text-align: center;
+	background-color: #FFF;
+	&__title{
+		color: #9F9ACF;
+		font-size: 24px;
+		padding-bottom: 30px;
+		padding-top: 300px;
+	}
+	&__position{
+		font-size: 24px;
+		font-style: italic;
+		color: #665F60;
+	}
+	&__img{
+		margin: 0 auto;
+		position: absolute !important;
+		transform: translateY(0px);
+		transform: translateX(50px);
+		overflow: visible;
+	}
+	&__footer{
+		background-color: #9f9acf;
+		padding: 19px 0;
+	}
+}
+
+.ba-link{
+	&--about{
+		color: #7D7A7C;
+		font-style: italic;
+		border: 1px solid #7d7a7c;
+		padding: 15px 48px;
+		line-height: 1;
+		font-size: 20px;
+	}
+	&--works{
+		color: #FFF;
+		font-style: italic;
+		border: 1px solid #fff;
+		padding: 15px 48px;
+		line-height: 1;
+		font-size: 20px;
+	}
+}
+
+.ba-contacts{
+	background-color: #9f9acf;
+	// opacity:.1;
+}
+.ba-contact{
+	text-align: center;
+	position: absolute;
+	z-index: 999;
+	transform: translateY(250px);
+	margin: 0 auto;
+	left: 20%;
+	&__title{
+		padding-top: 25px;
+		font-size: 36px;
+		font-weight: 600;
+	}
+}
+.ba-form{
+	&__input{
+		font-style: italic;
+		background-color: rgba(235, 235, 235, 0.5);
+		height: 56px;
+	}
+	&__button{
+		text-transform: uppercase;
+		color: #FFF;
+		padding: 27px 68px;
+		border-radius: 4px;
+		font-family: 'ProximaNova', sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+	}
+	&__textarea{
+		margin: 27px 0 55px;
+	}
+}
+.ba-top{
+	background-color:  rgba(159, 154, 207, 0.5);
+	width: 84px;
+	height: 84px;
+	& img{
+		margin: 0 auto;
+		top: 0;
+		left: 0;
+	}
+}
+#ba-map{
+	height: 900px;
+	margin-top: 92px;
+	position: relative;
+	z-index: 998;
+	@include breakpoint(medium down){
+		zoom: 50%;
+	}
+}

@@ -1,0 +1,25 @@
+.top-bar-title{
+	padding: 25px 0 20px 62px;
+	@include breakpoint(medium down){
+		text-align: center;
+		zoom: 90%;
+	}
+}
+.ba-main-menu{
+	padding: 47px 50px;
+	li{
+		padding-left: 30px;
+		a{
+			color: $body-font-color;
+			font-weight: 700;
+			text-transform: uppercase;
+			&:hover, &:focus{
+				color: #9f9acf;
+			}
+			@include breakpoint(medium down){
+				text-align: center;
+				padding-left: 0;
+			}
+		}
+	}
+}
