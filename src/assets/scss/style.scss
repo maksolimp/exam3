@@ -27,15 +27,36 @@
 	padding: 124px 0 121px;
 
 }
+
 .ba-services{
 	color: #665F60;
 	&__block{
 		text-align: center;
+		padding: 95px 0 104px;
+		h4{
+			margin-top: 20px;
+			text-transform: uppercase;
+		}
+		p{
+			max-width: 80%;
+			margin: 0 auto;
+		}
 	}
-	&__title{
-		margin-top: 85px;
+	&__side{
+		padding: 106px 0 300px;
+		text-align: center;
+		color: #fff;
+		h3{
+			margin: 25px 0 110px;
+			text-transform: uppercase;
+		}
+		p{
+			max-width: 80%;
+			margin: 0 auto;
+		}
 	}
 }
+
 
 .ba-works{
 	padding: 49px 0 60px;
@@ -107,7 +128,7 @@
 	text-align: center;
 	position: absolute;
 	z-index: 999;
-	// transform: translateY(75px);
+	transform: translateY(75px);
 	margin: 0 auto;
 	left: 20%;
 	&__title{
@@ -136,7 +157,7 @@
 	}
 }
 .ba-top{
-	background-color:  rgba(159, 154, 207, 0.5);
+	background-color: rgba(159, 154, 207, 0.5);
 	width: 84px;
 	height: 84px;
 	& img{
